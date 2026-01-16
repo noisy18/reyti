@@ -1,0 +1,11 @@
+# Контур - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kontur.app/sitemap.xml
+
+# Запрет на индексацию служебных страниц
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
